@@ -15,6 +15,9 @@ public class OrderEntity {
     @Column(name = "ORDER_ID")
     private Long orderId;
 
+    @Column(name = "ORDER_TOTAL_AMOUNT")
+    private Long orderTotalAmount;
+
     @OneToMany(mappedBy = "orderEntity")
     private List<OrderProductEntity> orderProductEntities;
 }
