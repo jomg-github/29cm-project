@@ -1,4 +1,7 @@
 spring:
+  main:
+    web-application-type: none
+
   h2:
     console:
       enabled: true
