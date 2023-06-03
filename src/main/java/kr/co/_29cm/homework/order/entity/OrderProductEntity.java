@@ -13,6 +13,7 @@ public class OrderProductEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ORDER_PRODUCT_ID")
     private Long orderProductId;
 
     @Column(name = "ORDER_PRDUCT_QUANTITY", nullable = false)
